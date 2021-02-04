@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders article 1`] = `
+<DocumentFragment>
+  <figure>
+    <img
+      style="height: 50%; width: 50%;"
+    />
+    <figcaption />
+    <figcaption />
+    <figcaption />
+  </figure>
+</DocumentFragment>
+`;
+
+exports[`App component renders articles 1`] = `
+<DocumentFragment>
+  <ul>
+    <li
+      style="margin: 50px;"
+    >
+      <figure>
+        <img
+          src=""
+          style="height: 50%; width: 50%;"
+        />
+        <figcaption />
+        <figcaption />
+        <figcaption />
+      </figure>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
+
+exports[`App component renders search 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="search"
+    >
+       Search Bar
+      <input
+        id="search"
+        name="search"
+        type="text"
+      />
+    </label>
+    <button>
+      Search
+    </button>
+  </form>
+</DocumentFragment>
+`;
